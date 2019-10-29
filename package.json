@@ -1,0 +1,25 @@
+{
+  "name": "hush-it",
+  "version": "1.0.0",
+  "description": "CLI tool to generate your files' hashes",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "hush": "./bin/hush.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mikeChatsky/hush-it.git"
+  },
+  "author": "Mike Chatsky",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mikeChatsky/hush-it/issues"
+  },
+  "homepage": "https://github.com/mikeChatsky/hush-it#readme",
+  "dependencies": {
+    "yargs": "^14.2.0"
+  }
+}
